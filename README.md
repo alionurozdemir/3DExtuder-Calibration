@@ -1,16 +1,41 @@
-# extuder_calibration
+# 3D Extuder Calibration App
 
-A new Flutter project.
+![This is an image](https://www.alionurozdemir.com/wp-content/uploads/2023/01/extruder-magaza.png)
 
-## Getting Started
+Mobile application that allows 3D Printers to calculate the extruder flow value. Ensure that the surfaces of the models you print with 3D printers are of higher quality and smoother.
 
-This project is a starting point for a Flutter application.
+- url_launcher: ^6.1.7
+- flutter_native_splash: ^2.2.16
+- flutter_launcher_icons: ^0.11.0
+- provider: ^6.0.5
+- rename: ^2.1.1
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
++ Flow Value Calculation
++ Tutorial 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Getting started
+
+### Clone the repository
+
+```
+$ git clone [https://github.com/alionurozdemir/3DExtuder-Calibration.git]
+```
+
+###### Install the dependencies
+```
+$ flutter pub get
+```
+
+###### Run the app
+```
+$ flutter run
+```
+
+## Contributing
+We welcome contributions to this project. If you have an idea for a new feature or have found a bug, please open an issue to discuss it. If you want to implement a new feature or fix a bug yourself, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
